@@ -5,7 +5,7 @@ go 1.23.0
 toolchain go1.24.4
 
 require (
-	github.com/things-kit/core v0.0.0
+	github.com/things-kit/core v0.1.0
 	go.uber.org/fx v1.24.0
 )
 
@@ -21,4 +21,3 @@ require (
 
 // Replace with local path for development
 // Remove this before publishing
-replace github.com/things-kit/core => ../things-kit
